@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "categories": {
+    "tools": {"prefixes": ["scripts/", "docs/agent/", "docs/tools/", ".gitignore", "AGENTS.md", "使用说明.md", "README.md", "CHANGELOG.md", "LICENSE", "开发参与与改进路线.md", "备课流程图.pdf", "项目文件归属.json"], "update": "开发者维护；实例修改须比较后处理，不能无条件覆盖"},
+    "shared_materials": {"prefixes": ["资料/", "dictionaries/指拼/", "dictionaries/resources.json", "dictionaries/可下载词典.md"], "update": "公共基线；老师改过的文件保留，更新时比较差异，外发遵守原授权"},
+    "personal": {"prefixes": ["工作台/", "个人设置/", "个人资料/", "更新备份/"], "update": "用户所有；不进入公共发布，不由工具更新覆盖"},
+    "local_resources": {"prefixes": ["dictionaries/"], "update": "本机下载词典及自加资源，保留；明确列出的内置公共资源除外"}
+  },
+  "starter_files": ["工作台/使用说明.md"],
+  "exclude_prefixes": [".git/", ".github/", "scripts/release/", ".venv/", "构建记录/", "发布包/"],
+  "exclude_components": ["__pycache__", ".pytest_cache", ".DS_Store"],
+  "exclude_names": ["debug.log", "Thumbs.db"],
+  "exclude_suffixes": [".pyc", ".pyo", ".tmp", ".log"]
+}
